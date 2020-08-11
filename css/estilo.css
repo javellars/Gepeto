@@ -1,0 +1,118 @@
+body,
+html{
+    background-color: #E0FFFF	;
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
+.card_login{
+    height:380px;
+    width:350px ;
+    margin-bottom:auto;
+    margin-top: auto;
+    background:#87CEEB;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2 ), 0 6px 20px 0 rgba(0, 0, 0, 0.19 );   /*  margem esquerda, margem inferior, margem superior, margem direita */ 
+            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2 ), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+}
+
+.area_logo{
+    position: absolute;
+    height:170px;
+    width:170px;
+    border-radius:50%;
+    background:#ADD8E6;
+    padding: 5px;
+    text-align: center;
+    top: -65px;
+}
+
+.logo_circular{
+    height:160px;
+    width:160px;
+    border-radius:50%;
+    border: 2px solid white ; /* expessura, tipo e cor*/
+
+}
+
+.form_login{
+    margin-top: 100px;
+}
+
+.input_usuario{
+    outline: 0px;
+}
+
+.input-group-text{
+    background: #ADD8E6; /*cor do fundo do ícone*/
+    color: palevioletred; /*cor do icone*/
+    border: 0;
+    border-radius:0.25rem 0 0 0.25rem;
+}
+
+.custom-checkbox .custom-control-input:checked~ .custom-control-label::before {
+    background-color: #FF1493;
+
+}
+
+.area_botao{
+    padding: 0 2rem;
+}
+
+.btn_validacao{
+    background: #B0E0E6	;
+    border:0;
+    border-radius:5px;
+    width:100%;
+    height:35px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.btn_validacao:focus{
+    box-shadow:none;
+    outline:0px;
+}
+
+.link_senha{
+
+    color: palevioletred; /*cor do icone*/
+    text-align: center;   
+
+}
+
+.nav-link{
+    color: darkblue;
+    font-size: 25px;
+}
+
+
+.form_senha{
+    margin-top: 20px;
+
+}
+
+.card_senha{
+    height:350px;
+    width:350px ;
+    margin-bottom:auto;
+    margin-top: 90px;
+    background:#87CEEB;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0.2 ), 0 6px 20px 0 rgba(0, 0, 0, 0.19 );   /*  margem esquerda, margem inferior, margem superior, margem direita */ 
+            -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2 ), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            border-radius: 10px;
+}
+
+.navbar-nav{
+    background: red;
+}
